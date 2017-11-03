@@ -1,15 +1,47 @@
-# .gitignore standard file for ICS Software Engineering Meteor Development.
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Ignore IntelliJ Project files.
-*.iml
-.idea/
+# Folder config file
+Desktop.ini
 
-# If on a Mac, ignore DS_Store.
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# Don't commit the production settings file.
-settings.production.json
+# Thumbnails
+._*
 
-# Build node_modules locally, ignore errors.
-node_modules/
-npm-debug.log
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
